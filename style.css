@@ -1,0 +1,155 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background: #f9f2f6;
+}
+
+/* NAVBAR */
+.navbar {
+    width: 100%;
+    padding: 15px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(8px);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+.navbar a {
+    color: black;
+    font-weight: 600;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.navbar a.active,
+.navbar a:hover {
+    color: #ff2f8e;
+}
+
+.logo {
+    font-size: 28px;
+    color: black;
+    font-weight: bold;
+}
+
+.pinkB {
+    color: #ff2f8e;
+    font-weight: 900;
+}
+
+/* HERO BANNER */
+.hero {
+    height: 420px;
+    background: url("banner.jpg") center/cover no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-content {
+    background: rgba(0, 0, 0, 0.45);
+    padding: 25px 40px;
+    border-radius: 15px;
+    text-align: center;
+    color: white;
+}
+
+/* CARDS */
+.cards-section {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    padding: 40px;
+}
+
+.card {
+    width: 300px;
+    padding: 25px;
+    background: white;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 0 10px #ff2f8e80;
+}
+
+/* SERVICES */
+.services-section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 40px;
+    gap: 25px;
+}
+
+.service-card {
+    padding: 25px;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 0 10px #ff2f8e80;
+}
+
+/* ABOUT */
+.about-section {
+    padding: 40px;
+    background: white;
+    border-radius: 20px;
+    margin: 40px;
+    box-shadow: 0 0 10px #ff2f8e80;
+}
+
+/* QUOTE */
+.quote-box {
+    margin: 40px auto;
+    width: 80%;
+    padding: 30px;
+    background: white;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 0 10px #ff2f8e80;
+}
+
+/* CONTACT */
+.contact {
+    padding: 30px;
+    text-align: center;
+}
+
+.contact input,
+.contact textarea {
+    width: 80%;
+    margin: 10px 0;
+    padding: 12px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+}
+
+.contact button {
+    padding: 12px 25px;
+    background: #ff2f8e;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 25px;
+    color: white;
+    background: #222;
+}
